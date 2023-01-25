@@ -1,3 +1,12 @@
+/* 
+For an array of numbers return an array of those numbers sorted from highest to lowest excluding those divisible by 3 unless the first digit is a 1 (Do not include numbers divisible by 3 unless the first digit is a 1)
+ 
+example: 
+[87,44,55,33,12,23,7000,1,444,66,144,6890,213,133,62,127,61,379,97,32,109,102,3,2,216]
+returns:
+[7000, 6890, 379, 144, 133, 127, 109, 102, 97, 62, 61, 55, 44, 32, 23, 12, 2, 1] 
+*/
+
 function input(nums) {
   let result = [];
   let checkForOne;
